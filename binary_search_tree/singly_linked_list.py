@@ -1,4 +1,3 @@
-
 class Node:
     def __init__(self, value = None, next_node = None):
         self.value = value
@@ -117,52 +116,3 @@ class LinkedList:
         return max_value
 
             
-
-        
-# linked_list = LinkedList()
-# linked_list.add_to_tail(1)
-# print("list.tail.value", linked_list.tail.value)
-# print("list.head.value", linked_list.head.value)
-
-# linked_list.add_to_tail(2)
-# print("list.tail.value", linked_list.tail.value)
-# print("list.head.value", linked_list.head.value)
-
-# linked_list.add_to_tail(10)
-# linked_list.add_to_tail(20)
-# linked_list.remove_head()
-# linked_list.remove_head()
-# print("list.tail.value", linked_list.tail.value)
-# print("list.head.value", linked_list.head.value)
-
-# print('-'*90)
-# linked_list.add_to_tail(10)
-# linked_list.remove_head()
-# print("list.head.value", linked_list.head.value)
-# print("list.tail.value", linked_list.tail.value)
-# linked_list.remove_head()
-# print("list.head.value", linked_list.head.value)
-# print('='*90)
-# linked_list.add_to_tail(30)
-# linked_list.add_to_tail(40)
-# print("list.head.value", linked_list.head.value)
-# print("list.tail.value", linked_list.tail.value)
-# linked_list.remove_tail()
-# print("list.tail.value", linked_list.tail.value)
-# linked_list.remove_tail()
-# print("list.tail.value", linked_list.tail.value)
-# linked_list.add_to_tail(100)
-# print("list.tail.value", linked_list.tail.value)
-# linked_list.remove_tail()
-# print("list.tail.value", linked_list.tail.value)
-# print('+'*90)
-# print("list.head.value", linked_list.head.value)
-# print("list.tail.value", linked_list.tail.value)
-# linked_list.remove_tail()
-
-
-
-         
-
-
-
