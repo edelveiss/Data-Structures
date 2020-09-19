@@ -33,18 +33,6 @@ class LinkedList:
             current_node = current_node.get_next()
         return output
 
-    def add_to_head(self, value): #O(1)
-        new_node = Node(value) #create a new node to add
-        #check if linked list is empty
-        if self.head is None and self.tail is None:
-            self.head = new_node
-            self.tail = new_node
-        else:
-            #new_node should ppoint ot cuttent head
-            new_node.next_node = self.head
-            #move head to new node
-            self.head = new_node 
-
     def add_to_tail(self, value):
         new_node = Node(value)
         if not self.head :
@@ -58,13 +46,14 @@ class LinkedList:
     def remove_head(self):
         if not self.head:
             return None
-        head_value = self.head.get_value()
+
         if self.head.get_next() is None:
+            head_value = self.head.get_value()
             self.head = None
             self.tail = None
             return head_value
 
-        
+        head_value = self.head.get_value()
         self.head = self.head.get_next()
         return head_value
 
